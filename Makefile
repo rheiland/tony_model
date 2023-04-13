@@ -67,7 +67,9 @@ ALL_OBJECTS := $(PhysiCell_OBJECTS) $(PhysiCell_custom_module_OBJECTS)
 	
 all: main.cpp $(ALL_OBJECTS)
 	$(COMPILE_COMMAND) -o $(PROGRAM_NAME) $(ALL_OBJECTS) main.cpp 
-	make name 
+#	make name 
+	@echo ""
+	@echo "Executable name is" $(PROGRAM_NAME)
 
 name:
 	@echo ""
