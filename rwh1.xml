@@ -106,11 +106,11 @@
 
 		<full_data>
 			<interval units="min">15</interval> <!-- 60 originally-->
-			<enable>true</enable>
+			<enable>false</enable>
 		</full_data>
 		
 		<SVG>
-			<interval units="min">15</interval><!-- 60 originally-->
+			<interval units="min">30</interval><!-- 60 originally-->
 			<enable>true</enable>
 		</SVG>
 		
